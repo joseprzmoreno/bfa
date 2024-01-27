@@ -1,0 +1,4308 @@
+[
+    {
+    "name": "acciones cotidianas",
+    "words": [
+    "acostarse",
+    "asearse",
+    "descansar",
+    "despertar",
+    "despertarse",
+    "dormir",
+    "ducharse",
+    "esperar",
+    "fumar",
+    "jugar",
+    "quedar",
+    "quitarse",
+    "rezar",
+    "soñar",
+    "vestirse"
+    ],
+    "emoji": "😴",
+    "sort": 1550,
+    "slug": "verbos_acciones_cotidianas"
+    },
+    {
+    "name": "acciones dirigidas a personas",
+    "words": [
+    "abrazar",
+    "acompañar",
+    "besar",
+    "confiar",
+    "cuidar",
+    "dejar en paz",
+    "identificar",
+    "invitar",
+    "molestar",
+    "perdonar",
+    "sorprender",
+    "tratar"
+    ],
+    "emoji": "😘",
+    "sort": 1600,
+    "slug": "verbos_acciones_personas"
+    },
+    {
+    "name": "acciones y golpes",
+    "words": [
+    "acción",
+    "actividad",
+    "agresión",
+    "asalto",
+    "ataque",
+    "golpe",
+    "obra",
+    "patada"
+    ],
+    "emoji": "🔨",
+    "sort": 850,
+    "slug": "acciones_golpes"
+    },
+    {
+    "name": "adjetivos que indican certeza",
+    "words": [
+    "cierto",
+    "contrario",
+    "correcto",
+    "exacto",
+    "falso",
+    "incorrecto",
+    "real",
+    "secreto",
+    "verdadero"
+    ],
+    "emoji": "✔️",
+    "sort": 1230,
+    "slug": "adjetivos_certeza"
+    },
+    {
+    "name": "adjetivos que indican mayor o menor normalidad",
+    "words": [
+    "extraño",
+    "normal",
+    "raro",
+    "regular",
+    "único"
+    ],
+    "emoji": "▶️",
+    "sort": 1260,
+    "slug": "adjetivos_normalidad"
+    },
+    {
+    "name": "adjetivos que indican valoración",
+    "words": [
+    "adecuado",
+    "agradable",
+    "bello",
+    "bonito",
+    "bueno",
+    "excelente",
+    "favorito",
+    "horrible",
+    "injusto",
+    "interesante",
+    "inútil",
+    "justo",
+    "malo",
+    "maravilloso",
+    "mejor",
+    "peligroso",
+    "peor",
+    "perfecto",
+    "razonable",
+    "seguro",
+    "terrible",
+    "útil"
+    ],
+    "emoji": "👌",
+    "sort": 1035,
+    "slug": "adjetivos_valoracion"
+    },
+    {
+    "name": "adjetivos relacionados con el dinero",
+    "words": [
+    "barato",
+    "caro",
+    "gratis",
+    "pobre",
+    "rico"
+    ],
+    "emoji": "💹",
+    "sort": 1060,
+    "slug": "adjetivos_dinero"
+    },
+    {
+    "name": "adjetivos relacionados con el tiempo",
+    "words": [
+    "actual",
+    "anterior",
+    "breve",
+    "final",
+    "habitual",
+    "pasado",
+    "permanente",
+    "preparado",
+    "próximo",
+    "que viene",
+    "reciente",
+    "repentino",
+    "siguiente"
+    ],
+    "emoji": "⏳",
+    "sort": 1160,
+    "slug": "adjetivos_tiempo"
+    },
+    {
+    "name": "adjetivos relacionados con la comida",
+    "words": [
+    "amargo",
+    "asado",
+    "dulce",
+    "frito",
+    "hecho",
+    "muy hecho",
+    "poco hecho",
+    "rebozado",
+    "salado",
+    "soso"
+    ],
+    "emoji": "🤤",
+    "sort": 1070,
+    "slug": "adjetivos_comida"
+    },
+    {
+    "name": "adjetivos relacionados con la dificultad",
+    "words": [
+    "complicado",
+    "difícil",
+    "fácil",
+    "sencillo"
+    ],
+    "emoji": "🤯",
+    "sort": 1180,
+    "slug": "adjetivos_dificultad"
+    },
+    {
+    "name": "adjetivos relacionados con la edad",
+    "words": [
+    "antiguo",
+    "joven",
+    "moderno",
+    "nuevo",
+    "viejo"
+    ],
+    "emoji": "👧",
+    "sort": 1135,
+    "slug": "adjetivos_edad"
+    },
+    {
+    "name": "adjetivos relacionados con la fuerza",
+    "words": [
+    "débil",
+    "feroz",
+    "flojo",
+    "fuerte",
+    "salvaje",
+    "violento"
+    ],
+    "emoji": "💪",
+    "sort": 1170,
+    "slug": "adjetivos_fuerza"
+    },
+    {
+    "name": "adjetivos relacionados con la importancia",
+    "words": [
+    "grave",
+    "importante",
+    "principal",
+    "secundario",
+    "tremendo",
+    "urgente"
+    ],
+    "emoji": "🙏",
+    "sort": 1220,
+    "slug": "adjetivos_importancia"
+    },
+    {
+    "name": "adjetivos relacionados con la justicia",
+    "words": [
+    "culpable",
+    "inocente",
+    "sospechoso"
+    ],
+    "emoji": "🗽",
+    "sort": 1250,
+    "slug": "adjetivos_justicia"
+    },
+    {
+    "name": "adjetivos relacionados con la limpieza",
+    "words": [
+    "limpio",
+    "puro",
+    "sucio"
+    ],
+    "emoji": "✨",
+    "sort": 1080,
+    "slug": "adjetivos_limpieza"
+    },
+    {
+    "name": "adjetivos relacionados con la posición y el movimiento",
+    "words": [
+    "brusco",
+    "derecho",
+    "directo",
+    "fijo",
+    "inferior",
+    "lejano",
+    "quieto",
+    "recto",
+    "sentado",
+    "sujeto",
+    "superior",
+    "tumbado"
+    ],
+    "emoji": "💺",
+    "sort": 1200,
+    "slug": "adjetivos_posicion_movimiento"
+    },
+    {
+    "name": "adjetivos relacionados con la probabilidad",
+    "words": [
+    "imposible",
+    "posible",
+    "probable"
+    ],
+    "emoji": "🎲",
+    "sort": 1210,
+    "slug": "adjetivos_probabilidad"
+    },
+    {
+    "name": "adjetivos relacionados con la temperatura",
+    "words": [
+    "caliente",
+    "fresco",
+    "frío",
+    "templado"
+    ],
+    "emoji": "🌡",
+    "sort": 1090,
+    "slug": "adjetivos_temperatura"
+    },
+    {
+    "name": "adjetivos relacionados con la textura y la consistencia",
+    "words": [
+    "blando",
+    "duro",
+    "espeso",
+    "firme",
+    "húmedo",
+    "liso",
+    "llano",
+    "mojado",
+    "plano",
+    "resistente",
+    "seco",
+    "suave",
+    "sólido",
+    "áspero"
+    ],
+    "emoji": "👘",
+    "sort": 1040,
+    "slug": "adjetivos_textura_consistencia"
+    },
+    {
+    "name": "adjetivos relacionados con la velocidad",
+    "words": [
+    "inmediato",
+    "lento",
+    "rápido"
+    ],
+    "emoji": "🏇",
+    "sort": 1105,
+    "slug": "adjetivos_velocidad"
+    },
+    {
+    "name": "adjetivos relacionados con lugares",
+    "words": [
+    "abierto",
+    "aislado",
+    "cercano",
+    "cerrado",
+    "profundo",
+    "silencioso"
+    ],
+    "emoji": "🚪",
+    "sort": 1190,
+    "slug": "adjetivos_lugares"
+    },
+    {
+    "name": "adverbios de frecuencia",
+    "words": [
+    "a menudo",
+    "a veces",
+    "alguna vez",
+    "de vez en cuando",
+    "normalmente",
+    "nunca",
+    "siempre"
+    ],
+    "emoji": "💠",
+    "sort": 2020,
+    "slug": "adverbios_frecuencia"
+    },
+    {
+    "name": "adverbios de lugar",
+    "words": [
+    "abajo",
+    "adelante",
+    "ahí",
+    "allá",
+    "allí",
+    "alrededor",
+    "aquí",
+    "arriba",
+    "atrás",
+    "cerca",
+    "debajo",
+    "delante",
+    "dentro",
+    "derecha",
+    "detrás",
+    "en casa",
+    "en todas partes",
+    "encima",
+    "enfrente",
+    "fuera",
+    "izquierda",
+    "lejos"
+    ],
+    "emoji": "🗺",
+    "sort": 2000,
+    "slug": "adverbios_lugar"
+    },
+    {
+    "name": "adverbios de modo y otro tipo",
+    "words": [
+    "a la vez",
+    "a pie",
+    "absolutamente",
+    "adrede",
+    "aproximadamente",
+    "así",
+    "bien",
+    "cada vez más",
+    "de pie",
+    "deprisa",
+    "especialmente",
+    "juntos",
+    "mal",
+    "no",
+    "probablemente",
+    "quizá",
+    "realmente",
+    "revés",
+    "solo",
+    "sí",
+    "también",
+    "tampoco",
+    "únicamente"
+    ],
+    "emoji": "⁉",
+    "sort": 2030,
+    "slug": "adverbios_modo_otros"
+    },
+    {
+    "name": "adverbios de tiempo",
+    "words": [
+    "actualmente",
+    "ahora",
+    "antes",
+    "ayer",
+    "aún",
+    "despacio",
+    "después",
+    "entonces",
+    "hoy",
+    "luego",
+    "mañana",
+    "mientras tanto",
+    "mucho tiempo",
+    "otra vez",
+    "pasado mañana",
+    "por primera vez",
+    "pronto",
+    "recientemente",
+    "tarde",
+    "temprano",
+    "todavía",
+    "ya",
+    "ya no"
+    ],
+    "emoji": "⏰",
+    "sort": 2010,
+    "slug": "adverbios_tiempo"
+    },
+    {
+    "name": "animales",
+    "words": [
+    "abeja",
+    "animal",
+    "asno",
+    "buey",
+    "caballo",
+    "cerdo",
+    "elefante",
+    "gallina",
+    "gato",
+    "insecto",
+    "león",
+    "lobo",
+    "mono",
+    "mosca",
+    "oveja",
+    "perro",
+    "pez",
+    "pájaro",
+    "vaca"
+    ],
+    "emoji": "🐶",
+    "sort": 100,
+    "slug": "animales"
+    },
+    {
+    "name": "aparatos y máquinas",
+    "words": [
+    "Internet",
+    "aparato",
+    "correo electrónico",
+    "cámara",
+    "máquina",
+    "ordenador",
+    "pila",
+    "radar",
+    "robot",
+    "videocámara"
+    ],
+    "emoji": "🖥️",
+    "sort": 240,
+    "slug": "aparatos_maquinas"
+    },
+    {
+    "name": "armas",
+    "words": [
+    "arma",
+    "bala",
+    "bomba",
+    "espada",
+    "misil",
+    "munición",
+    "paracaídas",
+    "pistola",
+    "provisiones",
+    "proyectil",
+    "tanque"
+    ],
+    "emoji": "🗡",
+    "sort": 920,
+    "slug": "armas"
+    },
+    {
+    "name": "arte y cultura",
+    "words": [
+    "arte",
+    "cultura",
+    "exposición",
+    "historia",
+    "literatura",
+    "película",
+    "poema",
+    "tradición",
+    "versión",
+    "fundación"
+    ],
+    "emoji": "🏛️",
+    "sort": 700,
+    "slug": "arte_cultura"
+    },
+    {
+    "name": "artículos",
+    "words": [
+    "el",
+    "lo",
+    "un"
+    ],
+    "emoji": "📰",
+    "sort": 20,
+    "slug": "articulos"
+    },
+    {
+    "name": "asuntos y temas",
+    "words": [
+    "asunto",
+    "caso",
+    "cuestión",
+    "hecho",
+    "manera",
+    "modo",
+    "método",
+    "tema"
+    ],
+    "emoji": "📚",
+    "sort": 590,
+    "slug": "asuntos_temas"
+    },
+    {
+    "name": "bebidas",
+    "words": [
+    "agua",
+    "alcohol",
+    "café",
+    "cerveza",
+    "hielo",
+    "leche",
+    "té",
+    "vino",
+    "zumo"
+    ],
+    "emoji": "🍷",
+    "sort": 270,
+    "slug": "bebidas"
+    },
+    {
+    "name": "características generales de un objeto o situación",
+    "words": [
+    "aspecto",
+    "calidad",
+    "cantidad",
+    "color",
+    "condición",
+    "cualidad",
+    "estado",
+    "estructura",
+    "figura",
+    "forma",
+    "importancia",
+    "límite",
+    "peso",
+    "posición",
+    "propiedad",
+    "tamaño",
+    "tipo",
+    "título",
+    "uso",
+    "valor"
+    ],
+    "emoji": "⏹",
+    "sort": 535,
+    "slug": "caracteristicas_objeto"
+    },
+    {
+    "name": "características personales",
+    "words": [
+    "apellido",
+    "belleza",
+    "carácter",
+    "dirección",
+    "documentación",
+    "edad",
+    "estatura",
+    "idioma",
+    "inteligencia",
+    "memoria",
+    "mente",
+    "nombre",
+    "profesión",
+    "raza",
+    "sentido del humor",
+    "sexo",
+    "talla",
+    "trabajo",
+    "voz"
+    ],
+    "emoji": "🗃️",
+    "sort": 370,
+    "slug": "caracteristicas_personales"
+    },
+    {
+    "name": "casas y edificios",
+    "words": [
+    "ascensor",
+    "cortina",
+    "cuadro",
+    "edredón",
+    "escalera",
+    "hogar",
+    "mando a distancia",
+    "manta",
+    "pared",
+    "pintura",
+    "piscina",
+    "piso",
+    "polvo",
+    "puerta",
+    "suelo",
+    "sábana",
+    "tubería",
+    "ventana"
+    ],
+    "emoji": "🏠",
+    "sort": 140,
+    "slug": "casas_edificios"
+    },
+    {
+    "name": "causa y efecto",
+    "words": [
+    "argumento",
+    "causa",
+    "consecuencia",
+    "efecto",
+    "finalidad",
+    "objetivo",
+    "razón",
+    "resultado"
+    ],
+    "emoji": "⏭️",
+    "sort": 600,
+    "slug": "causa_efecto"
+    },
+    {
+    "name": "colores",
+    "words": [
+    "amarillo",
+    "azul",
+    "blanco",
+    "claro",
+    "gris",
+    "marrón",
+    "naranja",
+    "negro",
+    "oscuro",
+    "rojo",
+    "rosa",
+    "verde"
+    ],
+    "emoji": "🎨",
+    "sort": 1050,
+    "slug": "colores"
+    },
+    {
+    "name": "comidas del día",
+    "words": [
+    "almuerzo",
+    "cena",
+    "desayuno",
+    "entrante",
+    "postre"
+    ],
+    "emoji": "🍝",
+    "sort": 280,
+    "slug": "comidas_del_dia"
+    },
+    {
+    "name": "cómo es una persona psicológicamente",
+    "words": [
+    "abierto de mente",
+    "amable",
+    "antipático",
+    "divertido",
+    "educado",
+    "egoísta",
+    "estúpido",
+    "feliz",
+    "gracioso",
+    "grosero",
+    "honrado",
+    "inteligente",
+    "listo",
+    "malvado",
+    "mentiroso",
+    "prudente",
+    "realista",
+    "responsable",
+    "sensato",
+    "serio",
+    "simpático",
+    "tonto",
+    "valiente"
+    ],
+    "emoji": "🙂",
+    "sort": 1120,
+    "slug": "adjetivos_persona_psicologia"
+    },
+    {
+    "name": "comparativos y superlativos",
+    "words": [
+    "más",
+    "más X que",
+    "tan X como"
+    ],
+    "emoji": "➕",
+    "sort": 1300,
+    "slug": "comparativos_superlativos"
+    },
+    {
+    "name": "complementos del atuendo",
+    "words": [
+    "anillo",
+    "bolso",
+    "bufanda",
+    "esmeralda",
+    "gafas",
+    "gorro",
+    "guante",
+    "joya",
+    "maletín",
+    "mascarilla",
+    "paraguas",
+    "reloj",
+    "sombrero",
+    "zafiro"
+    ],
+    "emoji": "👜",
+    "sort": 300,
+    "slug": "complementos_atuendo"
+    },
+    {
+    "name": "conceptos gramaticales",
+    "words": [
+    "(-mente)",
+    "(-ísimo)",
+    "(adjetivos)",
+    "(alfabeto)",
+    "(clasificadores)",
+    "(condicional)",
+    "(diminutivo)",
+    "(futuro)",
+    "(honor)",
+    "(imperativo)",
+    "(interjeccs)",
+    "(nombres propios)",
+    "(nombres)",
+    "(ordinales)",
+    "(participios)",
+    "(partitivos)",
+    "(partículas)",
+    "(pasado)",
+    "(plural)",
+    "(presentativos)",
+    "(presente)",
+    "(pron)",
+    "(pronombres)",
+    "(puntuación)",
+    "(sintaxis)",
+    "(subjuntivo)",
+    "(verbos)",
+    "(voz pasiva)"
+    ],
+    "emoji": "🧩",
+    "sort": 2130,
+    "slug": "conceptos_gramaticales"
+    },
+    {
+    "name": "conectores discursivos",
+    "words": [
+    "además",
+    "de hecho",
+    "de todas formas",
+    "en cuanto a",
+    "incluso",
+    "por cierto",
+    "por ejemplo",
+    "por eso",
+    "por supuesto",
+    "por tanto",
+    "por último",
+    "repente",
+    "respecto",
+    "si no",
+    "sin embargo",
+    "verdaderamente",
+    "en relación con"
+    ],
+    "emoji": "🧵",
+    "sort": 2110,
+    "slug": "conectores_discursivos"
+    },
+    {
+    "name": "conflictos políticos",
+    "words": [
+    "conflicto",
+    "conspiración",
+    "droga",
+    "huelga",
+    "manifestación",
+    "trato"
+    ],
+    "emoji": "💣",
+    "sort": 890,
+    "slug": "conflictos_politicos"
+    },
+    {
+    "name": "conjunciones de oraciones coordinadas",
+    "words": [
+    "ni",
+    "o",
+    "pero",
+    "sino",
+    "y"
+    ],
+    "emoji": "🧲",
+    "sort": 2080,
+    "slug": "conjunciones_coordinadas"
+    },
+    {
+    "name": "conjunciones de oraciones subordinadas",
+    "words": [
+    "a condición de que",
+    "así que",
+    "aunque",
+    "cuando",
+    "en caso de que",
+    "para",
+    "para que",
+    "porque",
+    "pues",
+    "que",
+    "si",
+    "tan X que"
+    ],
+    "emoji": "🖇",
+    "sort": 2090,
+    "slug": "conjunciones_subordinadas"
+    },
+    {
+    "name": "cuantificadores",
+    "words": [
+    "alguno",
+    "algunos",
+    "bastante",
+    "cada",
+    "casi",
+    "demasiado",
+    "demás",
+    "medio",
+    "menos",
+    "mucho",
+    "muchos",
+    "muy",
+    "más",
+    "más de",
+    "ninguno",
+    "poco",
+    "pocos",
+    "resto",
+    "suficiente",
+    "tan",
+    "tanto",
+    "todo",
+    "todos",
+    "un poco",
+    "un poco de",
+    "varios"
+    ],
+    "emoji": "🎳",
+    "sort": 990,
+    "slug": "cuantificadores"
+    },
+    {
+    "name": "delitos y crímenes",
+    "words": [
+    "asesinato",
+    "asesino",
+    "cárcel",
+    "delito",
+    "fuga",
+    "policía",
+    "prisión",
+    "registro",
+    "seguridad",
+    "terrorismo",
+    "veneno"
+    ],
+    "emoji": "👮‍♂️",
+    "sort": 880,
+    "slug": "delitos_crimenes"
+    },
+    {
+    "name": "demostrativos",
+    "words": [
+    "aquel",
+    "aquello",
+    "ese",
+    "eso",
+    "este",
+    "esto"
+    ],
+    "emoji": "👉",
+    "sort": 30,
+    "slug": "demostrativos"
+    },
+    {
+    "name": "deportes y juegos",
+    "words": [
+    "afición",
+    "campeón",
+    "concurso",
+    "deporte",
+    "derrota",
+    "empate",
+    "final",
+    "fútbol",
+    "ganador",
+    "juego",
+    "partido",
+    "pelota",
+    "premio",
+    "triunfo",
+    "victoria",
+    "éxito"
+    ],
+    "emoji": "⛹️",
+    "sort": 710,
+    "slug": "deportes_juegos"
+    },
+    {
+    "name": "desastres",
+    "words": [
+    "accidente",
+    "emergencia",
+    "herido",
+    "incendio",
+    "incidente",
+    "inundación",
+    "muerto",
+    "terremoto"
+    ],
+    "emoji": "🌪️",
+    "sort": 900,
+    "slug": "desastres"
+    },
+    {
+    "name": "destrezas en una clase",
+    "words": [
+    "anotar",
+    "aprender",
+    "copiar",
+    "corregir",
+    "dar",
+    "enseñar",
+    "entrenar",
+    "equivocarse",
+    "escribir",
+    "estudiar",
+    "fallar",
+    "firmar",
+    "leer",
+    "pintar",
+    "rellenar",
+    "revisar",
+    "significar"
+    ],
+    "emoji": "✏",
+    "sort": 1570,
+    "slug": "destrezas_clase"
+    },
+    {
+    "name": "días de la semana",
+    "words": [
+    "domingo",
+    "jueves",
+    "lunes",
+    "martes",
+    "miércoles",
+    "sábado",
+    "viernes"
+    ],
+    "emoji": "🎢",
+    "sort": 510,
+    "slug": "dias_semana"
+    },
+    {
+    "name": "distintos adjetivos auxiliares",
+    "words": [
+    "basado",
+    "capaz",
+    "dispuesto",
+    "formado",
+    "necesario",
+    "prohibido"
+    ],
+    "emoji": "🛑",
+    "sort": 1280,
+    "slug": "adjetivos_auxiliares"
+    },
+    {
+    "name": "diversos adjetivos aplicables a objetos",
+    "words": [
+    "afilado",
+    "apagado",
+    "brillante",
+    "encendido",
+    "ligero",
+    "lleno",
+    "pesado",
+    "redondo",
+    "vacío"
+    ],
+    "emoji": "🥛",
+    "sort": 1100,
+    "slug": "adjetivos_objetos_misc"
+    },
+    {
+    "name": "diversos adjetivos aplicables a personas",
+    "words": [
+    "cansado",
+    "despierto",
+    "embarazada",
+    "extranjero",
+    "famoso",
+    "fiel",
+    "homosexual",
+    "hostil",
+    "implicado",
+    "libre",
+    "noble",
+    "ocupado",
+    "orgulloso",
+    "perezoso",
+    "popular",
+    "solitario",
+    "solo",
+    "vivo"
+    ],
+    "emoji": "🤰",
+    "sort": 1140,
+    "slug": "adjetivos_personas_misc"
+    },
+    {
+    "name": "diversos adjetivos de carácter general",
+    "words": [
+    "común",
+    "diferente",
+    "especial",
+    "general",
+    "gran",
+    "igual",
+    "intenso",
+    "similar",
+    "unido",
+    "universal"
+    ],
+    "emoji": "🔵",
+    "sort": 1270,
+    "slug": "adjetivos_general"
+    },
+    {
+    "name": "diversos adjetivos formales de difícil clasificación",
+    "words": [
+    "aéreo",
+    "económico",
+    "femenino",
+    "festivo",
+    "financiero",
+    "fértil",
+    "humano",
+    "local",
+    "masculino",
+    "mental",
+    "natural",
+    "nuclear",
+    "personal",
+    "preferente",
+    "social",
+    "trágico",
+    "técnico",
+    "étnico"
+    ],
+    "emoji": "🕴",
+    "sort": 1290,
+    "slug": "adjetivos_formales_varios"
+    },
+    {
+    "name": "diversos adjetivos relacionados con la política",
+    "words": [
+    "civil",
+    "conservador",
+    "federal",
+    "ilegal",
+    "independiente",
+    "internacional",
+    "legal",
+    "liberal",
+    "moderado",
+    "nacional",
+    "neutral",
+    "oficial",
+    "político",
+    "privado",
+    "público"
+    ],
+    "emoji": "🤹",
+    "sort": 1240,
+    "slug": "adjetivos_politica"
+    },
+    {
+    "name": "diversos nombres abstractos",
+    "words": [
+    "cambio",
+    "casualidad",
+    "daño",
+    "diferencia",
+    "falta",
+    "influencia",
+    "información",
+    "interés",
+    "maravilla",
+    "misterio",
+    "necesidad",
+    "orden",
+    "posibilidad",
+    "suerte"
+    ],
+    "emoji": "🍀",
+    "sort": 630,
+    "slug": "abstractos_varios"
+    },
+    {
+    "name": "diversos nombres abstractos más relacionados con las personas",
+    "words": [
+    "atención",
+    "ayuda",
+    "broma",
+    "compromiso",
+    "costumbre",
+    "cuidado",
+    "deseo",
+    "esfuerzo",
+    "esperanza",
+    "experiencia",
+    "favor",
+    "habilidad",
+    "honor",
+    "idea",
+    "paciencia",
+    "plan"
+    ],
+    "emoji": "🕵️",
+    "sort": 640,
+    "slug": "abstractos_personas"
+    },
+    {
+    "name": "diversos verbos cuyo sujeto es una persona",
+    "words": [
+    "cansarse",
+    "casarse",
+    "disculparse",
+    "entrometerse",
+    "jubilarse",
+    "mudarse",
+    "parecerse"
+    ],
+    "emoji": "😫",
+    "sort": 1690,
+    "slug": "verbos_persona"
+    },
+    {
+    "name": "el cielo",
+    "words": [
+    "cielo",
+    "estrella",
+    "luna",
+    "luz",
+    "nube",
+    "sol"
+    ],
+    "emoji": "🌅",
+    "sort": 80,
+    "slug": "cielo"
+    },
+    {
+    "name": "el cuarto de baño",
+    "words": [
+    "bañera",
+    "baño",
+    "cepillo de dientes",
+    "ducha",
+    "jabón",
+    "lavabo",
+    "papel higiénico",
+    "pasta de dientes",
+    "toalla"
+    ],
+    "emoji": "🚽",
+    "sort": 180,
+    "slug": "cuarto_banio"
+    },
+    {
+    "name": "el cuerpo humano",
+    "words": [
+    "boca",
+    "brazo",
+    "cabello",
+    "cabeza",
+    "cara",
+    "codo",
+    "cuello",
+    "cuerpo",
+    "dedo",
+    "diente",
+    "espalda",
+    "excremento",
+    "grano",
+    "hombro",
+    "labios",
+    "mano",
+    "muela",
+    "muñeca",
+    "nariz",
+    "ojo",
+    "oreja",
+    "pecho",
+    "pelo",
+    "pie",
+    "piel",
+    "pierna",
+    "rodilla",
+    "tobillo"
+    ],
+    "emoji": "🚶",
+    "sort": 350,
+    "slug": "cuerpo_humano"
+    },
+    {
+    "name": "el dinero",
+    "words": [
+    "billete",
+    "dinero",
+    "dólar",
+    "euro",
+    "moneda",
+    "tarjeta de crédito"
+    ],
+    "emoji": "💵",
+    "sort": 800,
+    "slug": "dinero"
+    },
+    {
+    "name": "el físico",
+    "words": [
+    "calvo",
+    "delgado",
+    "feo",
+    "gordo",
+    "guapo"
+    ],
+    "emoji": "🦸",
+    "sort": 1110,
+    "slug": "adjetivos_fisico"
+    },
+    {
+    "name": "el lenguaje",
+    "words": [
+    "advertencia",
+    "amenaza",
+    "anuncio",
+    "aviso",
+    "comentario",
+    "condición",
+    "consejo",
+    "conversación",
+    "decisión",
+    "discurso",
+    "duda",
+    "excusa",
+    "letra",
+    "lista",
+    "mensaje",
+    "mentira",
+    "nota",
+    "ofrecimiento",
+    "opinión",
+    "palabra",
+    "petición",
+    "pregunta",
+    "propuesta",
+    "punto de vista",
+    "relato",
+    "respuesta",
+    "secreto",
+    "significado",
+    "silencio",
+    "sugerencia",
+    "término",
+    "verdad"
+    ],
+    "emoji": "📒",
+    "sort": 645,
+    "slug": "lenguaje"
+    },
+    {
+    "name": "el mar",
+    "words": [
+    "arena",
+    "costa",
+    "dique",
+    "isla",
+    "mar",
+    "ola",
+    "playa"
+    ],
+    "emoji": "🌊",
+    "sort": 90,
+    "slug": "mar"
+    },
+    {
+    "name": "el tamaño y las dimensiones",
+    "words": [
+    "alto",
+    "amplio",
+    "ancho",
+    "bajo",
+    "completo",
+    "corto",
+    "enorme",
+    "entero",
+    "estrecho",
+    "fino",
+    "grande",
+    "grueso",
+    "largo",
+    "mayor",
+    "menor",
+    "partido",
+    "pequeño"
+    ],
+    "emoji": "💫",
+    "sort": 1030,
+    "slug": "adjetivos_tamanio_dimensiones"
+    },
+    {
+    "name": "elementos artificiales del paisaje",
+    "words": [
+    "autopista",
+    "camino",
+    "carretera",
+    "casa",
+    "chalé",
+    "mina",
+    "mineral",
+    "pozo",
+    "puente",
+    "sendero",
+    "valla"
+    ],
+    "emoji": "🌉",
+    "sort": 110,
+    "slug": "elementos_artificiales_paisaje"
+    },
+    {
+    "name": "estado civil, discapacidad, salud, presencia física",
+    "words": [
+    "casado",
+    "ciego",
+    "enfermo",
+    "presente",
+    "sano",
+    "soltero",
+    "sordo"
+    ],
+    "emoji": "👰",
+    "sort": 1150,
+    "slug": "adjetivos_varios"
+    },
+    {
+    "name": "estados de ánimo",
+    "words": [
+    "aburrido",
+    "alegre",
+    "asustado",
+    "contento",
+    "enfadado",
+    "furioso",
+    "loco",
+    "nervioso",
+    "preocupado",
+    "tranquilo",
+    "triste"
+    ],
+    "emoji": "😭",
+    "sort": 1130,
+    "slug": "estados_animo"
+    },
+    {
+    "name": "eventos y acontecimientos",
+    "words": [
+    "acontecimiento",
+    "aniversario",
+    "bienvenida",
+    "boda",
+    "ceremonia",
+    "cita",
+    "cumpleaños",
+    "espectáculo",
+    "fiesta",
+    "fuegos",
+    "funeral",
+    "regalo",
+    "reunión",
+    "sorpresa",
+    "visita"
+    ],
+    "emoji": "🎁",
+    "sort": 580,
+    "slug": "eventos_acontecimientos"
+    },
+    {
+    "name": "expresiones y saludos",
+    "words": [
+    "adiós",
+    "bienvenido",
+    "buenas noches",
+    "buenas tardes",
+    "buenos días",
+    "da igual",
+    "de acuerdo",
+    "de nada",
+    "disculpe",
+    "enhorabuena",
+    "estar de acuerdo",
+    "gracias",
+    "hola",
+    "lo siento",
+    "me duele",
+    "me gusta",
+    "perdone",
+    "ponerse de acuerdo",
+    "por favor",
+    "vamos"
+    ],
+    "emoji": "🙋",
+    "sort": 10,
+    "slug": "expresiones_saludos"
+    },
+    {
+    "name": "frutas",
+    "words": [
+    "fresa",
+    "fruta",
+    "limón",
+    "manzana",
+    "melón",
+    "naranja",
+    "pera",
+    "plátano"
+    ],
+    "emoji": "🍏",
+    "sort": 260,
+    "slug": "frutas"
+    },
+    {
+    "name": "grupos",
+    "words": [
+    "cola",
+    "comunidad",
+    "conjunto",
+    "equipo",
+    "fila",
+    "gente",
+    "grupo",
+    "mayoría",
+    "minoría",
+    "muchedumbre",
+    "multitud",
+    "pareja",
+    "población",
+    "serie",
+    "tribu"
+    ],
+    "emoji": "👨‍👨‍👦‍👦",
+    "sort": 410,
+    "slug": "grupos"
+    },
+    {
+    "name": "habitaciones de la casa",
+    "words": [
+    "cocina",
+    "cuarto de baño",
+    "dormitorio",
+    "garaje",
+    "habitación",
+    "jardín",
+    "pasillo",
+    "sala",
+    "salón",
+    "terraza"
+    ],
+    "emoji": "🏡",
+    "sort": 150,
+    "slug": "habitaciones"
+    },
+    {
+    "name": "interrogativos",
+    "words": [
+    "cuál",
+    "cuándo",
+    "cuánto",
+    "cuántos",
+    "cómo",
+    "de dónde",
+    "de quién",
+    "dónde",
+    "por qué",
+    "quién",
+    "qué"
+    ],
+    "emoji": "❓",
+    "sort": 960,
+    "slug": "interrogativos"
+    },
+    {
+    "name": "la agricultura",
+    "words": [
+    "agricultura",
+    "cereal",
+    "cosecha",
+    "cultivo",
+    "granja",
+    "grano",
+    "maíz",
+    "semilla",
+    "terreno",
+    "trigo"
+    ],
+    "emoji": "🚜",
+    "sort": 680,
+    "slug": "agricultura"
+    },
+    {
+    "name": "la ciencia",
+    "words": [
+    "arqueología",
+    "astronomía",
+    "atmósfera",
+    "biología",
+    "ciencia",
+    "cohete",
+    "contaminación",
+    "corriente",
+    "experimento",
+    "fluido",
+    "física",
+    "gas",
+    "laboratorio",
+    "matemáticas",
+    "materia",
+    "media",
+    "microscopio",
+    "número",
+    "onda",
+    "planeta",
+    "química",
+    "radiación",
+    "rayo",
+    "residuo",
+    "satélite",
+    "sustancia",
+    "tecnología",
+    "telescopio",
+    "teoría",
+    "universo",
+    "vapor",
+    "órbita"
+    ],
+    "emoji": "🔬",
+    "sort": 650,
+    "slug": "ciencia"
+    },
+    {
+    "name": "la ciudad",
+    "words": [
+    "andén",
+    "apartamento",
+    "avenida",
+    "ayuntamiento",
+    "balcón",
+    "banco",
+    "barrio",
+    "basura",
+    "biblioteca",
+    "cafetería",
+    "cajero",
+    "calle",
+    "cine",
+    "comisaría",
+    "correos",
+    "cruce",
+    "edificio",
+    "entorno",
+    "esquina",
+    "estación",
+    "estatua",
+    "fuente",
+    "gasolinera",
+    "hospital",
+    "hotel",
+    "mercado",
+    "monumento",
+    "muro",
+    "oficina",
+    "parque",
+    "plaza",
+    "puerto",
+    "restaurante",
+    "taller",
+    "teatro",
+    "tráfico",
+    "urbanización",
+    "zoo"
+    ],
+    "emoji": "🏙",
+    "sort": 120,
+    "slug": "ciudad"
+    },
+    {
+    "name": "la clase",
+    "words": [
+    "bolígrafo",
+    "cuaderno",
+    "ejercicio",
+    "folio",
+    "lápiz"
+    ],
+    "emoji": "🏫",
+    "sort": 210,
+    "slug": "clase"
+    },
+    {
+    "name": "la cocina",
+    "words": [
+    "bandeja",
+    "bote",
+    "botella",
+    "cacerola",
+    "cazo",
+    "cubierto",
+    "cuchara",
+    "cuchillo",
+    "frigorífico",
+    "horno",
+    "lata",
+    "lavadora",
+    "lavavajillas",
+    "microondas",
+    "olla",
+    "palillo",
+    "pasta",
+    "plato",
+    "recipiente",
+    "sartén",
+    "servilleta",
+    "taza",
+    "tenedor",
+    "trapo",
+    "vaso"
+    ],
+    "emoji": "🍽",
+    "sort": 170,
+    "slug": "cocina"
+    },
+    {
+    "name": "la diplomacia",
+    "words": [
+    "acuerdo",
+    "aliado",
+    "cooperación",
+    "cumbre",
+    "embajada",
+    "espía",
+    "resolución",
+    "situación",
+    "tensión",
+    "traición",
+    "traidor",
+    "tratado"
+    ],
+    "emoji": "👔",
+    "sort": 940,
+    "slug": "diplomacia"
+    },
+    {
+    "name": "la economía",
+    "words": [
+    "acción",
+    "beneficio",
+    "bolsa",
+    "capitalismo",
+    "compra",
+    "crédito",
+    "cuenta",
+    "deuda",
+    "déficit",
+    "economía",
+    "excedente",
+    "factura",
+    "impuesto",
+    "inflación",
+    "multa",
+    "oferta",
+    "precio",
+    "presupuesto",
+    "préstamo",
+    "riqueza",
+    "ruina",
+    "sueldo",
+    "tasa",
+    "total"
+    ],
+    "emoji": "💲",
+    "sort": 790,
+    "slug": "economia"
+    },
+    {
+    "name": "la educación",
+    "words": [
+    "academia",
+    "alumno",
+    "asignatura",
+    "carrera",
+    "clase",
+    "conferencia",
+    "conocimiento",
+    "educación",
+    "escuela",
+    "estudiante",
+    "estudio",
+    "examen",
+    "facultad",
+    "instituto",
+    "lección",
+    "universidad"
+    ],
+    "emoji": "👨‍🎓",
+    "sort": 200,
+    "slug": "educacion"
+    },
+    {
+    "name": "la familia",
+    "words": [
+    "abuela",
+    "abuelo",
+    "antepasado",
+    "esposa",
+    "familia",
+    "hermana",
+    "hermano",
+    "hija",
+    "hijo",
+    "hijos",
+    "madre",
+    "marido",
+    "nieto",
+    "padre",
+    "padres",
+    "tía",
+    "tío"
+    ],
+    "emoji": "👪",
+    "sort": 380,
+    "slug": "familia"
+    },
+    {
+    "name": "la guerra",
+    "words": [
+    "alto el fuego",
+    "batalla",
+    "campamento",
+    "cuartel",
+    "desfile",
+    "guerra",
+    "ofensiva",
+    "paz",
+    "rebelión",
+    "refugio",
+    "revuelta",
+    "subversión",
+    "toque de queda",
+    "tortura",
+    "tregua"
+    ],
+    "emoji": "🚀",
+    "sort": 910,
+    "slug": "guerra"
+    },
+    {
+    "name": "la justicia",
+    "words": [
+    "cargos",
+    "castigo",
+    "juicio",
+    "jurado",
+    "justicia",
+    "juzgado",
+    "prueba",
+    "recurso",
+    "sentencia",
+    "tribunal"
+    ],
+    "emoji": "⚖",
+    "sort": 840,
+    "slug": "justicia"
+    },
+    {
+    "name": "la ley",
+    "words": [
+    "derecho",
+    "investigación",
+    "ley",
+    "libertad",
+    "proyecto de ley",
+    "reforma"
+    ],
+    "emoji": "📜",
+    "sort": 770,
+    "slug": "ley"
+    },
+    {
+    "name": "la música",
+    "words": [
+    "baile",
+    "campana",
+    "canción",
+    "guitarra",
+    "instrumento",
+    "música",
+    "piano",
+    "ritmo"
+    ],
+    "emoji": "🎵",
+    "sort": 720,
+    "slug": "musica"
+    },
+    {
+    "name": "la naturaleza y el paisaje",
+    "words": [
+    "bosque",
+    "campo",
+    "colina",
+    "desierto",
+    "flor",
+    "hierba",
+    "hoja",
+    "lago",
+    "manantial",
+    "medio ambiente",
+    "montaña",
+    "naturaleza",
+    "orilla",
+    "planta",
+    "raíz",
+    "roca",
+    "río",
+    "selva",
+    "sombra",
+    "valle",
+    "volcán",
+    "árbol"
+    ],
+    "emoji": "🏞",
+    "sort": 70,
+    "slug": "naturaleza_paisaje"
+    },
+    {
+    "name": "la religión",
+    "words": [
+    "Dios",
+    "Navidad",
+    "alma",
+    "clero",
+    "cruz",
+    "dios",
+    "espíritu",
+    "hechizo",
+    "iglesia",
+    "mezquita",
+    "moral",
+    "religión",
+    "sacrificio",
+    "tumba"
+    ],
+    "emoji": "⛩️",
+    "sort": 730,
+    "slug": "religion"
+    },
+    {
+    "name": "la salud",
+    "words": [
+    "COVID-19",
+    "alergia",
+    "ambulancia",
+    "antibiótico",
+    "calmante",
+    "constipado",
+    "coronavirus",
+    "cura",
+    "cáncer",
+    "dieta",
+    "enfermedad",
+    "esparadrapo",
+    "fiebre",
+    "gasa",
+    "gripe",
+    "herida",
+    "inyección",
+    "medicina",
+    "paciente",
+    "pastilla",
+    "salud",
+    "tirita",
+    "tratamiento",
+    "virus"
+    ],
+    "emoji": "💊",
+    "sort": 690,
+    "slug": "salud"
+    },
+    {
+    "name": "la vida",
+    "words": [
+    "muerte",
+    "sexo",
+    "sueño",
+    "vida"
+    ],
+    "emoji": "☸️",
+    "sort": 470,
+    "slug": "vida"
+    },
+    {
+    "name": "las estaciones del año",
+    "words": [
+    "estación",
+    "invierno",
+    "otoño",
+    "primavera",
+    "verano"
+    ],
+    "emoji": "☃️",
+    "sort": 530,
+    "slug": "estaciones_anio"
+    },
+    {
+    "name": "los alimentos",
+    "words": [
+    "aceite",
+    "ajo",
+    "arroz",
+    "azúcar",
+    "carne",
+    "chocolate",
+    "comida",
+    "cáscara",
+    "ensalada",
+    "grasa",
+    "harina",
+    "helado",
+    "huevo",
+    "menú",
+    "pan",
+    "pastel",
+    "patata",
+    "pescado",
+    "pimienta",
+    "pimiento",
+    "pollo",
+    "sacarina",
+    "sal",
+    "salsa",
+    "solomillo",
+    "sopa",
+    "tarta",
+    "ternera",
+    "verdura",
+    "yogur"
+    ],
+    "emoji": "🍗",
+    "sort": 250,
+    "slug": "alimentos"
+    },
+    {
+    "name": "los elementos naturales",
+    "words": [
+    "aire",
+    "ceniza",
+    "fuego",
+    "humo",
+    "tierra"
+    ],
+    "emoji": "🔥",
+    "sort": 60,
+    "slug": "elementos_naturales"
+    },
+    {
+    "name": "los sentidos",
+    "words": [
+    "equilibrio",
+    "hambre",
+    "olor",
+    "recuerdo",
+    "ruido",
+    "sabor",
+    "sed",
+    "sentido",
+    "señal",
+    "señas",
+    "sonido",
+    "vista"
+    ],
+    "emoji": "👀",
+    "sort": 450,
+    "slug": "sentidos"
+    },
+    {
+    "name": "lucha y disputas",
+    "words": [
+    "disputa",
+    "enfrentamiento",
+    "lata",
+    "lucha",
+    "prohibición",
+    "trampa",
+    "ventaja"
+    ],
+    "emoji": "🤼‍♀️",
+    "sort": 860,
+    "slug": "lucha_disputas"
+    },
+    {
+    "name": "magnitudes",
+    "words": [
+    "distancia",
+    "electricidad",
+    "energía",
+    "fuerza",
+    "masa",
+    "potencia",
+    "presión",
+    "superficie",
+    "velocidad"
+    ],
+    "emoji": "⚛️",
+    "sort": 660,
+    "slug": "magnitudes"
+    },
+    {
+    "name": "materiales",
+    "words": [
+    "acero",
+    "algodón",
+    "carbón",
+    "cartón",
+    "cristal",
+    "goma",
+    "hierro",
+    "lana",
+    "madera",
+    "material",
+    "metal",
+    "oro",
+    "papel",
+    "petróleo",
+    "piedra",
+    "plata",
+    "plástico",
+    "seda",
+    "tela"
+    ],
+    "emoji": "🔩",
+    "sort": 230,
+    "slug": "materiales"
+    },
+    {
+    "name": "medios de comunicación",
+    "words": [
+    "emisora",
+    "medios de comunicación",
+    "móvil",
+    "noticia",
+    "periódico",
+    "prensa",
+    "programa",
+    "radio",
+    "reportaje",
+    "televisión",
+    "teléfono"
+    ],
+    "emoji": "📺",
+    "sort": 340,
+    "slug": "medios_comunicacion"
+    },
+    {
+    "name": "medios de transporte",
+    "words": [
+    "autobús",
+    "avión",
+    "barca",
+    "barco",
+    "bicicleta",
+    "bote",
+    "camión",
+    "coche",
+    "ferrocarril",
+    "globo",
+    "helicóptero",
+    "metro",
+    "moto",
+    "submarino",
+    "taxi",
+    "tranvía",
+    "tren"
+    ],
+    "emoji": "🚆",
+    "sort": 310,
+    "slug": "medios_transporte"
+    },
+    {
+    "name": "meses del año",
+    "words": [
+    "abril",
+    "agosto",
+    "diciembre",
+    "enero",
+    "febrero",
+    "julio",
+    "junio",
+    "marzo",
+    "mayo",
+    "noviembre",
+    "octubre",
+    "septiembre"
+    ],
+    "emoji": "🎠",
+    "sort": 520,
+    "slug": "meses"
+    },
+    {
+    "name": "meteorología",
+    "words": [
+    "calor",
+    "clima",
+    "frío",
+    "grado",
+    "lluvia",
+    "niebla",
+    "nieve",
+    "relámpago",
+    "temperatura",
+    "tiempo",
+    "tormenta",
+    "viento"
+    ],
+    "emoji": "🌩️",
+    "sort": 475,
+    "slug": "tiempo_atmosferico"
+    },
+    {
+    "name": "muebles",
+    "words": [
+    "alfombra",
+    "armario",
+    "cama",
+    "lámpara",
+    "mesa",
+    "mueble",
+    "silla",
+    "sillón",
+    "sofá"
+    ],
+    "emoji": "🛋",
+    "sort": 160,
+    "slug": "muebles"
+    },
+    {
+    "name": "negocios y comercio",
+    "words": [
+    "aduana",
+    "comercio",
+    "crisis",
+    "dueño",
+    "empresa",
+    "exportación",
+    "fábrica",
+    "heredero",
+    "importación",
+    "industria",
+    "marca",
+    "mercancía",
+    "negocio",
+    "negocios",
+    "producto",
+    "recesión",
+    "tabla",
+    "tesoro"
+    ],
+    "emoji": "®",
+    "sort": 810,
+    "slug": "negocios_comercio"
+    },
+    {
+    "name": "nombres de relación",
+    "words": [
+    "lazo",
+    "relación",
+    "unión",
+    "vínculo"
+    ],
+    "emoji": "🔄",
+    "sort": 570,
+    "slug": "nombres_relacion"
+    },
+    {
+    "name": "nombres genéricos de otro tipo",
+    "words": [
+    "barrera",
+    "base",
+    "detalle",
+    "ejemplo",
+    "error",
+    "lugar",
+    "modelo",
+    "nivel",
+    "proceso",
+    "proyecto",
+    "punto",
+    "realidad",
+    "servicio",
+    "sistema",
+    "zona"
+    ],
+    "emoji": "🔶",
+    "sort": 550,
+    "slug": "genericos_otros"
+    },
+    {
+    "name": "nombres genéricos relacionados con seres y objetos",
+    "words": [
+    "agujero",
+    "bola",
+    "borde",
+    "carga",
+    "copia",
+    "cosa",
+    "criatura",
+    "cuadrado",
+    "círculo",
+    "espacio",
+    "funda",
+    "imagen",
+    "línea",
+    "líquido",
+    "mancha",
+    "palo",
+    "ser"
+    ],
+    "emoji": "⭕",
+    "sort": 540,
+    "slug": "genericos_objetos"
+    },
+    {
+    "name": "números",
+    "words": [
+    "catorce",
+    "cero",
+    "cien",
+    "cinco",
+    "cincuenta",
+    "cuarenta",
+    "cuatro",
+    "diecinueve",
+    "dieciocho",
+    "diecisiete",
+    "dieciséis",
+    "diez",
+    "doce",
+    "dos",
+    "mil",
+    "millón",
+    "noventa",
+    "nueve",
+    "ochenta",
+    "ocho",
+    "once",
+    "quince",
+    "seis",
+    "sesenta",
+    "setenta",
+    "siete",
+    "trece",
+    "treinta",
+    "tres",
+    "uno",
+    "veinte"
+    ],
+    "emoji": "7️⃣",
+    "sort": 1000,
+    "slug": "numeros"
+    },
+    {
+    "name": "números ordinales",
+    "words": [
+    "cuarto",
+    "décimo",
+    "noveno",
+    "octavo",
+    "primero",
+    "quinto",
+    "segundo",
+    "sexto",
+    "séptimo",
+    "tercero",
+    "último"
+    ],
+    "emoji": "🥉",
+    "sort": 1010,
+    "slug": "ordinales"
+    },
+    {
+    "name": "objetos diversos",
+    "words": [
+    "aguja",
+    "bolsa",
+    "cable",
+    "caja",
+    "cajón",
+    "cepillo",
+    "cuerda",
+    "herramienta",
+    "imán",
+    "llave",
+    "martillo",
+    "objeto",
+    "paquete",
+    "red",
+    "tapa",
+    "tijeras",
+    "tubo"
+    ],
+    "emoji": "📦",
+    "sort": 190,
+    "slug": "objetos_diversos"
+    },
+    {
+    "name": "órdenes y mando",
+    "words": [
+    "control",
+    "deber",
+    "mando",
+    "orden",
+    "regla"
+    ],
+    "emoji": "💂",
+    "sort": 610,
+    "slug": "ordenes_mando"
+    },
+    {
+    "name": "otras preposiciones",
+    "words": [
+    "a",
+    "a causa de",
+    "a consecuencia de",
+    "a pesar de",
+    "acerca de",
+    "además de",
+    "como",
+    "contra",
+    "de",
+    "en vez de",
+    "excepto",
+    "frente a",
+    "para",
+    "pro",
+    "según",
+    "sin",
+    "alrededor de",
+    "sobre"
+    ],
+    "emoji": "⚙",
+    "sort": 2070,
+    "slug": "preposiciones_otras"
+    },
+    {
+    "name": "otros indefinidos",
+    "words": [
+    "cualquier",
+    "mismo",
+    "otro",
+    "tal"
+    ],
+    "emoji": "🙅",
+    "sort": 970,
+    "slug": "indefinidos"
+    },
+    {
+    "name": "otros nombres relacionados con el tiempo",
+    "words": [
+    "fecha",
+    "final",
+    "futuro",
+    "ocasión",
+    "oportunidad",
+    "pasado",
+    "plazo",
+    "presente",
+    "principio",
+    "prisa",
+    "vez"
+    ],
+    "emoji": "☯️",
+    "sort": 500,
+    "slug": "tiempo_otros"
+    },
+    {
+    "name": "otros nombres relacionados con los medios de transporte",
+    "words": [
+    "asiento",
+    "camarote",
+    "combustible",
+    "gasolina",
+    "horario",
+    "motor",
+    "rueda",
+    "transporte",
+    "tripulación",
+    "vagón",
+    "vehículo",
+    "vela",
+    "vía"
+    ],
+    "emoji": "🛫",
+    "sort": 320,
+    "slug": "transporte_otros"
+    },
+    {
+    "name": "otros nombres relacionados con personas",
+    "words": [
+    "criminal",
+    "esclavo",
+    "experto",
+    "gitano",
+    "héroe",
+    "ladrón",
+    "nativo",
+    "sabio",
+    "santo",
+    "sustituto"
+    ],
+    "emoji": "👳",
+    "sort": 472,
+    "slug": "personas_otros"
+    },
+    {
+    "name": "otros numerales",
+    "words": [
+    "ambos",
+    "cuarto",
+    "mitad",
+    "por ciento"
+    ],
+    "emoji": "🔢",
+    "sort": 1020,
+    "slug": "numerales_otros"
+    },
+    {
+    "name": "países y geografía",
+    "words": [
+    "Estado",
+    "Tierra",
+    "bandera",
+    "capital",
+    "ciudad",
+    "constitución",
+    "continente",
+    "frontera",
+    "mapa",
+    "mundo",
+    "nación",
+    "océano",
+    "país",
+    "pueblo",
+    "región",
+    "territorio"
+    ],
+    "emoji": "🌍",
+    "sort": 820,
+    "slug": "paises_geografia"
+    },
+    {
+    "name": "países, nacionalidades e idiomas",
+    "words": [
+    "Alemania",
+    "América",
+    "Argentina",
+    "Brasil",
+    "China",
+    "Egipto",
+    "España",
+    "Estados Unidos",
+    "Francia",
+    "Grecia",
+    "India",
+    "Indonesia",
+    "Italia",
+    "Japón",
+    "México",
+    "Nigeria",
+    "Portugal",
+    "Reino Unido",
+    "Rusia",
+    "Turquía",
+    "africano",
+    "alemán",
+    "americano",
+    "argentino",
+    "brasileño",
+    "chino",
+    "egipcio",
+    "español",
+    "estadounidense",
+    "francés",
+    "griego",
+    "indio",
+    "indonesio",
+    "inglés",
+    "italiano",
+    "japonés",
+    "mexicano",
+    "portugués",
+    "ruso",
+    "turco",
+    "África",
+    "árabe"
+    ],
+    "emoji": "🚩",
+    "sort": 2120,
+    "slug": "paises_nacionalidades_idiomas"
+    },
+    {
+    "name": "partes de un todo",
+    "words": [
+    "centro",
+    "extremo",
+    "fin",
+    "fondo",
+    "lado",
+    "parte",
+    "punta",
+    "trozo"
+    ],
+    "emoji": "🍱",
+    "sort": 560,
+    "slug": "partes_todo"
+    },
+    {
+    "name": "partes del día",
+    "words": [
+    "mañana",
+    "mediodía",
+    "noche",
+    "tarde"
+    ],
+    "emoji": "🌇",
+    "sort": 480,
+    "slug": "partes_dia"
+    },
+    {
+    "name": "partes internas del cuerpo",
+    "words": [
+    "cerebro",
+    "corazón",
+    "esqueleto",
+    "estómago",
+    "garganta",
+    "hueso",
+    "hígado",
+    "intestino",
+    "pulmón",
+    "riñón",
+    "sangre",
+    "órgano",
+    "útero"
+    ],
+    "emoji": "🦴",
+    "sort": 360,
+    "slug": "partes_internas_cuerpo"
+    },
+    {
+    "name": "personas según la edad",
+    "words": [
+    "adulto",
+    "anciano",
+    "bebé",
+    "chica",
+    "chico",
+    "hombre",
+    "individuo",
+    "muchacho",
+    "mujer",
+    "niña",
+    "niño",
+    "persona"
+    ],
+    "emoji": "👵",
+    "sort": 390,
+    "slug": "personas_edad"
+    },
+    {
+    "name": "personas según la relación",
+    "words": [
+    "amigo",
+    "anfitrión",
+    "compañero",
+    "enemigo",
+    "invitado",
+    "miembro",
+    "socio",
+    "vecino"
+    ],
+    "emoji": "👯",
+    "sort": 400,
+    "slug": "personas_relacion"
+    },
+    {
+    "name": "personas y grupos implicados en guerras",
+    "words": [
+    "artillería",
+    "ejército",
+    "fuerza aérea",
+    "general",
+    "guerrilla",
+    "marina",
+    "militar",
+    "rebelde",
+    "refugiado",
+    "rehén",
+    "tropa",
+    "víctima"
+    ],
+    "emoji": "🤺",
+    "sort": 930,
+    "slug": "personas_guerra"
+    },
+    {
+    "name": "personas y grupos relacionados con la política",
+    "words": [
+    "activista",
+    "ciudadano",
+    "delegado",
+    "disidente",
+    "exiliado",
+    "extremista",
+    "mano de obra",
+    "militante",
+    "terrorista"
+    ],
+    "emoji": "👨‍⚖️",
+    "sort": 750,
+    "slug": "personas_politica"
+    },
+    {
+    "name": "política y administración",
+    "words": [
+    "administración",
+    "agencia",
+    "cargo",
+    "comité",
+    "ecología",
+    "gabinete",
+    "gobierno",
+    "medida",
+    "poder",
+    "política",
+    "puesto",
+    "régimen"
+    ],
+    "emoji": "🏢",
+    "sort": 740,
+    "slug": "politica_administracion"
+    },
+    {
+    "name": "posesivos",
+    "words": [
+    "mi",
+    "nuestro",
+    "propio",
+    "su",
+    "tu",
+    "vuestro"
+    ],
+    "emoji": "👛",
+    "sort": 950,
+    "slug": "posesivos"
+    },
+    {
+    "name": "posición y movimiento",
+    "words": [
+    "entrada",
+    "movimiento",
+    "parada",
+    "paso",
+    "regreso",
+    "salida",
+    "vuelta",
+    "vuelta atrás"
+    ],
+    "emoji": "➡️",
+    "sort": 620,
+    "slug": "posicion_movimiento"
+    },
+    {
+    "name": "prendas de vestir",
+    "words": [
+    "abrigo",
+    "bañador",
+    "bikini",
+    "blusa",
+    "bolsillo",
+    "bota",
+    "bragas",
+    "calcetín",
+    "calzoncillos",
+    "camisa",
+    "camiseta",
+    "chaqueta",
+    "cinturón",
+    "corbata",
+    "falda",
+    "jersey",
+    "media",
+    "medias",
+    "pantalones",
+    "ropa",
+    "sujetador",
+    "traje",
+    "vestido",
+    "zapato"
+    ],
+    "emoji": "👖",
+    "sort": 290,
+    "slug": "prendas_vestir"
+    },
+    {
+    "name": "preposiciones de compañía, instrumento y modo",
+    "words": [
+    "con",
+    "en",
+    "por medio de"
+    ],
+    "emoji": "🛠",
+    "sort": 2060,
+    "slug": "preposiciones_comp_instr_modo"
+    },
+    {
+    "name": "preposiciones de lugar",
+    "words": [
+    "a",
+    "a lo largo de",
+    "a través de",
+    "alrededor de",
+    "ante",
+    "bajo",
+    "cerca de",
+    "de",
+    "debajo de",
+    "delante de",
+    "dentro de",
+    "desde",
+    "detrás de",
+    "en",
+    "en casa de",
+    "en medio de",
+    "encima de",
+    "enfrente de",
+    "entre",
+    "fuera de",
+    "hacia",
+    "hasta",
+    "junto a",
+    "lejos de",
+    "por encima de",
+    "sobre",
+    "tras"
+    ],
+    "emoji": "📥",
+    "sort": 2040,
+    "slug": "preposiciones_lugar"
+    },
+    {
+    "name": "preposiciones de tiempo",
+    "words": [
+    "a",
+    "a eso de",
+    "a partir de",
+    "antes de",
+    "después de",
+    "durante",
+    "en",
+    "hace",
+    "mientras",
+    "alrededor de"
+    ],
+    "emoji": "⌚",
+    "sort": 2050,
+    "slug": "preposiciones_tiempo"
+    },
+    {
+    "name": "problemas",
+    "words": [
+    "apuros",
+    "disturbio",
+    "peligro",
+    "problema",
+    "riesgo",
+    "solución",
+    "violencia"
+    ],
+    "emoji": "😱",
+    "sort": 870,
+    "slug": "problemas"
+    },
+    {
+    "name": "profesiones",
+    "words": [
+    "abogado",
+    "actor",
+    "actriz",
+    "astronauta",
+    "autónomo",
+    "camarero",
+    "cocinero",
+    "empleado",
+    "enfermera",
+    "funcionario",
+    "físico",
+    "guardia",
+    "guía",
+    "ingeniero",
+    "juez",
+    "maestro",
+    "marinero",
+    "médico",
+    "piloto",
+    "policía",
+    "político",
+    "profesor",
+    "secretario",
+    "soldado",
+    "traductor"
+    ],
+    "emoji": "👷‍♂️",
+    "sort": 420,
+    "slug": "profesiones"
+    },
+    {
+    "name": "profesiones de responsabilidad",
+    "words": [
+    "alcalde",
+    "diplomático",
+    "director",
+    "embajador",
+    "encargado",
+    "jefe",
+    "líder",
+    "ministro",
+    "presidente",
+    "princesa",
+    "príncipe",
+    "reina",
+    "rey"
+    ],
+    "emoji": "👸",
+    "sort": 430,
+    "slug": "profesiones_responsabilidad"
+    },
+    {
+    "name": "pronombres indefinidos",
+    "words": [
+    "algo",
+    "alguien",
+    "nada",
+    "nadie",
+    "todo el mundo"
+    ],
+    "emoji": "😶",
+    "sort": 980,
+    "slug": "pronombres_indefinidos"
+    },
+    {
+    "name": "pronombres personales",
+    "words": [
+    "ella",
+    "ellas",
+    "ello",
+    "ellos",
+    "nosotros",
+    "se",
+    "sí",
+    "tú",
+    "usted",
+    "ustedes",
+    "vosotros",
+    "yo",
+    "él"
+    ],
+    "emoji": "☝",
+    "sort": 1310,
+    "slug": "pronombres_personales"
+    },
+    {
+    "name": "pronombres relativos",
+    "words": [
+    "cual",
+    "cuyo",
+    "donde",
+    "lo que",
+    "que"
+    ],
+    "emoji": "🔗",
+    "sort": 2100,
+    "slug": "pronombres_relativos"
+    },
+    {
+    "name": "publicaciones y escritos",
+    "words": [
+    "carta",
+    "correo",
+    "diccionario",
+    "documento",
+    "formulario",
+    "foto",
+    "guía",
+    "informe",
+    "libro",
+    "publicación",
+    "página",
+    "revista",
+    "sello",
+    "sobre",
+    "tarjeta",
+    "álbum"
+    ],
+    "emoji": "📗",
+    "sort": 220,
+    "slug": "publicaciones_escritos"
+    },
+    {
+    "name": "puntos cardinales",
+    "words": [
+    "este",
+    "norte",
+    "oeste",
+    "sur"
+    ],
+    "emoji": "🧭",
+    "sort": 830,
+    "slug": "puntos_cardinales"
+    },
+    {
+    "name": "sentimientos y sensaciones",
+    "words": [
+    "amor",
+    "arrepentimiento",
+    "asombro",
+    "beso",
+    "compasión",
+    "depresión",
+    "diversión",
+    "dolor",
+    "emoción",
+    "humor",
+    "ira",
+    "luto",
+    "lágrima",
+    "miedo",
+    "perdón",
+    "piedad",
+    "preocupación",
+    "risa",
+    "sonrisa",
+    "susto",
+    "terror",
+    "vergüenza",
+    "voluntad"
+    ],
+    "emoji": "😀",
+    "sort": 460,
+    "slug": "sentimientos_sensaciones"
+    },
+    {
+    "name": "sistemas políticos",
+    "words": [
+    "anarquía",
+    "colonia",
+    "democracia",
+    "dictador",
+    "golpe de Estado",
+    "independencia",
+    "progreso",
+    "represión",
+    "sociedad"
+    ],
+    "emoji": "👑",
+    "sort": 760,
+    "slug": "sistemas_politicos"
+    },
+    {
+    "name": "tiendas",
+    "words": [
+    "farmacia",
+    "ferretería",
+    "hipermercado",
+    "joyería",
+    "juguetería",
+    "panadería",
+    "papelería",
+    "peluquería",
+    "relojería",
+    "supermercado",
+    "tienda",
+    "zapatería"
+    ],
+    "emoji": "🛍",
+    "sort": 130,
+    "slug": "tiendas"
+    },
+    {
+    "name": "tratamientos personales",
+    "words": [
+    "don",
+    "señor",
+    "señora",
+    "señorita"
+    ],
+    "emoji": "✉",
+    "sort": 440,
+    "slug": "tratamientos_personales"
+    },
+    {
+    "name": "unidades de medida",
+    "words": [
+    "kilo",
+    "kilómetro",
+    "metro",
+    "tonelada"
+    ],
+    "emoji": "📏",
+    "sort": 670,
+    "slug": "unidades_medida"
+    },
+    {
+    "name": "unidades de tiempo",
+    "words": [
+    "año",
+    "día",
+    "fin de semana",
+    "hora",
+    "mes",
+    "minuto",
+    "momento",
+    "período",
+    "rato",
+    "segundo",
+    "semana",
+    "siglo",
+    "temporada",
+    "tiempo",
+    "época"
+    ],
+    "emoji": "📅",
+    "sort": 490,
+    "slug": "unidades_tiempo"
+    },
+    {
+    "name": "verbos asociados a la idea de destrucción o rotura",
+    "words": [
+    "derribar",
+    "destrozar",
+    "destruir",
+    "partir",
+    "rasgar",
+    "romper"
+    ],
+    "emoji": "🏺",
+    "sort": 1910,
+    "slug": "verbos_destruccion_rotura"
+    },
+    {
+    "name": "verbos asociados a tareas de la casa o agrícolas",
+    "words": [
+    "cosechar",
+    "coser",
+    "cultivar",
+    "frotar",
+    "lavar",
+    "limpiar",
+    "manchar"
+    ],
+    "emoji": "👨‍🌾",
+    "sort": 1680,
+    "slug": "verbos_tareas"
+    },
+    {
+    "name": "verbos auxiliares",
+    "words": [
+    "a punto de",
+    "acabar de",
+    "deberías",
+    "estar",
+    "gana",
+    "haber",
+    "hacer falta",
+    "hacerse",
+    "hay",
+    "hay que",
+    "ir a",
+    "necesitar",
+    "parecer",
+    "poder",
+    "podría",
+    "ser",
+    "ser de",
+    "soler",
+    "son las",
+    "tener",
+    "tener que"
+    ],
+    "emoji": "🤗",
+    "sort": 1320,
+    "slug": "verbos_auxiliares"
+    },
+    {
+    "name": "verbos con cierto matiz social o que aparecen en una presentación o descripción personal",
+    "words": [
+    "bailar",
+    "cantar",
+    "dedicarse",
+    "llamarse",
+    "llevar puesto",
+    "presentar",
+    "reconocer",
+    "saludar",
+    "vivir"
+    ],
+    "emoji": "👩‍❤️‍💋‍👨",
+    "sort": 1560,
+    "slug": "verbos_sociales"
+    },
+    {
+    "name": "verbos de aumento o disminución",
+    "words": [
+    "ampliar",
+    "aumentar",
+    "desarrollarse",
+    "disminuir",
+    "encoger",
+    "expandir",
+    "extenderse",
+    "quedarse",
+    "reducir"
+    ],
+    "emoji": "⤴",
+    "sort": 1810,
+    "slug": "verbos_aumento_disminucion"
+    },
+    {
+    "name": "verbos de búsqueda",
+    "words": [
+    "buscar",
+    "descubrir",
+    "encontrar",
+    "explorar",
+    "perder",
+    "registrar"
+    ],
+    "emoji": "🔍",
+    "sort": 1520,
+    "slug": "verbos_busqueda"
+    },
+    {
+    "name": "verbos de cambio y transformación",
+    "words": [
+    "cambiar",
+    "convertirse",
+    "intercambiar",
+    "ponerse",
+    "quedarse",
+    "sustituir",
+    "transformarse",
+    "volverse"
+    ],
+    "emoji": "🏚",
+    "sort": 1790,
+    "slug": "verbos_cambio"
+    },
+    {
+    "name": "verbos de causa",
+    "words": [
+    "causar",
+    "conllevar",
+    "provocar",
+    "resultar"
+    ],
+    "emoji": "🔛",
+    "sort": 1940,
+    "slug": "verbos_causa"
+    },
+    {
+    "name": "verbos de creación",
+    "words": [
+    "crear",
+    "diseñar",
+    "establecer",
+    "fundar",
+    "inventar",
+    "producir"
+    ],
+    "emoji": "🧫",
+    "sort": 1750,
+    "slug": "verbos_creacion"
+    },
+    {
+    "name": "verbos de dar y recibir",
+    "words": [
+    "aceptar",
+    "compartir",
+    "dar",
+    "devolver",
+    "entregar",
+    "facilitar",
+    "ofrecer",
+    "pasar",
+    "pedir prestado",
+    "prestar",
+    "proporcionar",
+    "recibir",
+    "suministrar"
+    ],
+    "emoji": "🤽‍♂️",
+    "sort": 1490,
+    "slug": "verbos_dar_recibir"
+    },
+    {
+    "name": "verbos de desarrollo personal",
+    "words": [
+    "crecer",
+    "establecerse",
+    "morir",
+    "nacer",
+    "respirar",
+    "sobrevivir"
+    ],
+    "emoji": "👶",
+    "sort": 1610,
+    "slug": "verbos_desarrollo_personal"
+    },
+    {
+    "name": "verbos de deseo",
+    "words": [
+    "desear",
+    "pasar",
+    "preferir",
+    "querer"
+    ],
+    "emoji": "😏",
+    "sort": 1330,
+    "slug": "verbos_deseo"
+    },
+    {
+    "name": "verbos de detención",
+    "words": [
+    "atascarse",
+    "bloquear",
+    "detener",
+    "detenerse",
+    "evitar",
+    "impedir",
+    "limitar",
+    "parar",
+    "quedarse",
+    "restringir"
+    ],
+    "emoji": "⛔",
+    "sort": 1840,
+    "slug": "verbos_detencion"
+    },
+    {
+    "name": "verbos de difusión",
+    "words": [
+    "difundir",
+    "divulgarse",
+    "expandirse",
+    "propagarse",
+    "transmitir"
+    ],
+    "emoji": "📻",
+    "sort": 1930,
+    "slug": "verbos_difusion"
+    },
+    {
+    "name": "verbos de engaño",
+    "words": [
+    "engañar",
+    "estafar",
+    "fingir",
+    "mentir"
+    ],
+    "emoji": "⚠",
+    "sort": 1850,
+    "slug": "verbos_enganio"
+    },
+    {
+    "name": "verbos de existencia y surgimiento",
+    "words": [
+    "aparecer",
+    "celebrarse",
+    "desaparecer",
+    "encontrarse",
+    "existir",
+    "faltar",
+    "ocurrir",
+    "pasar",
+    "producirse",
+    "quedar",
+    "sobrar",
+    "surgir",
+    "tener lugar"
+    ],
+    "emoji": "💥",
+    "sort": 1740,
+    "slug": "verbos_existencia_surgimiento"
+    },
+    {
+    "name": "verbos de explicación",
+    "words": [
+    "definir",
+    "demostrar",
+    "describir",
+    "explicar"
+    ],
+    "emoji": "🤔",
+    "sort": 1650,
+    "slug": "verbos_explicacion"
+    },
+    {
+    "name": "verbos de gusto",
+    "words": [
+    "complacer",
+    "gustar",
+    "importar",
+    "interesar",
+    "satisfacer"
+    ],
+    "emoji": "😍",
+    "sort": 1340,
+    "slug": "verbos_gusto"
+    },
+    {
+    "name": "verbos de huida",
+    "words": [
+    "escapar",
+    "esconderse",
+    "huir",
+    "retirarse"
+    ],
+    "emoji": "⛵",
+    "sort": 1370,
+    "slug": "verbos_huida"
+    },
+    {
+    "name": "verbos de lucha y enfrentamiento",
+    "words": [
+    "competir",
+    "conquistar",
+    "defender",
+    "derrotar",
+    "desplegar",
+    "empatar",
+    "enfrentarse",
+    "fracasar",
+    "ganar",
+    "invadir",
+    "liberar",
+    "luchar",
+    "ocupar",
+    "pelearse",
+    "proteger",
+    "protestar",
+    "reaccionar",
+    "rebelarse",
+    "rendirse",
+    "rescatar",
+    "resistir",
+    "secuestrar",
+    "sublevarse",
+    "superar",
+    "vencer"
+    ],
+    "emoji": "🛡",
+    "sort": 1870,
+    "slug": "verbos_lucha_enfrentamiento"
+    },
+    {
+    "name": "verbos de movimiento intransitivos",
+    "words": [
+    "abrirse",
+    "acercarse",
+    "andar",
+    "asistir",
+    "bajar",
+    "caer",
+    "caerse",
+    "caminar",
+    "correr",
+    "dar la vuelta",
+    "dar media vuelta",
+    "dar una vuelta",
+    "dar vueltas",
+    "deslizarse",
+    "dirigirse",
+    "entrar",
+    "estar de pie",
+    "girar",
+    "ir",
+    "irse",
+    "levantarse",
+    "llegar",
+    "marchar",
+    "moverse",
+    "nadar",
+    "navegar",
+    "pasar",
+    "pasear",
+    "ponerse de pie",
+    "regresar",
+    "rodar",
+    "salir",
+    "saltar",
+    "sentarse",
+    "subir",
+    "trasladarse",
+    "tropezar",
+    "tumbarse",
+    "venir",
+    "volar",
+    "volver",
+    "zambullirse"
+    ],
+    "emoji": "🏃",
+    "sort": 1350,
+    "slug": "verbos_movimiento_intr"
+    },
+    {
+    "name": "verbos de movimiento transitivos",
+    "words": [
+    "abandonar",
+    "agitar",
+    "alcanzar",
+    "apretar",
+    "arrastrar",
+    "caérsele",
+    "colgar",
+    "conducir",
+    "cruzar",
+    "dar la vuelta",
+    "empujar",
+    "enviar",
+    "escalar",
+    "estirar",
+    "extraer",
+    "guiar",
+    "levantar",
+    "llevar",
+    "meter",
+    "mover",
+    "pasar",
+    "perseguir",
+    "pisar",
+    "rodear",
+    "sacar",
+    "traer",
+    "transportar",
+    "trasladar"
+    ],
+    "emoji": "💼",
+    "sort": 1380,
+    "slug": "verbos_movimiento_tr"
+    },
+    {
+    "name": "verbos de obtención",
+    "words": [
+    "conseguir",
+    "lograr",
+    "obtener"
+    ],
+    "emoji": "🏷",
+    "sort": 1495,
+    "slug": "verbos_obtencion"
+    },
+    {
+    "name": "verbos de orden y mandato",
+    "words": [
+    "controlar",
+    "dirigir",
+    "encabezar",
+    "obedecer",
+    "ordenar",
+    "requerir"
+    ],
+    "emoji": "🔔",
+    "sort": 1450,
+    "slug": "verbos_orden_mandato"
+    },
+    {
+    "name": "verbos de pensamiento",
+    "words": [
+    "comprender",
+    "considerar",
+    "creer",
+    "dudar",
+    "entender",
+    "imaginar",
+    "memorizar",
+    "pensar",
+    "suponer",
+    "suponerse",
+    "tener en cuenta"
+    ],
+    "emoji": "💡",
+    "sort": 1420,
+    "slug": "verbos_pensamiento"
+    },
+    {
+    "name": "verbos de permiso",
+    "words": [
+    "aprobar",
+    "obligar",
+    "permitir",
+    "prohibir"
+    ],
+    "emoji": "👫",
+    "sort": 1460,
+    "slug": "verbos_permiso"
+    },
+    {
+    "name": "verbos de petición",
+    "words": [
+    "exigir",
+    "insistir",
+    "instar",
+    "instigar",
+    "pedir",
+    "presionar",
+    "solicitar"
+    ],
+    "emoji": "🤷‍♂️",
+    "sort": 1440,
+    "slug": "verbos_peticion"
+    },
+    {
+    "name": "verbos de posesión",
+    "words": [
+    "pertenecer",
+    "poseer"
+    ],
+    "emoji": "🐍",
+    "sort": 1470,
+    "slug": "verbos_posesion"
+    },
+    {
+    "name": "verbos de vituperio",
+    "words": [
+    "aclamar",
+    "elogiar",
+    "felicitar"
+    ],
+    "emoji": "🏆",
+    "sort": 1990,
+    "slug": "verbos_vituperio"
+    },
+    {
+    "name": "verbos matemáticos",
+    "words": [
+    "contar",
+    "dividir",
+    "multiplicar",
+    "restar",
+    "sumar"
+    ],
+    "emoji": "🧮",
+    "sort": 1960,
+    "slug": "verbos_matematicos"
+    },
+    {
+    "name": "verbos meteorológicos",
+    "words": [
+    "llover",
+    "nevar",
+    "soplar"
+    ],
+    "emoji": "🌧",
+    "sort": 1720,
+    "slug": "verbos_meteorologicos"
+    },
+    {
+    "name": "verbos que conllevan alguna negación, renuncia o reprimenda",
+    "words": [
+    "castigar",
+    "negarse",
+    "oponerse",
+    "rechazar",
+    "regañar",
+    "reñir",
+    "sacrificar"
+    ],
+    "emoji": "😕",
+    "sort": 1820,
+    "slug": "verbos_negacion_renuncia"
+    },
+    {
+    "name": "verbos que implican ayuda",
+    "words": [
+    "aliviar",
+    "apoyar",
+    "atender",
+    "ayudar",
+    "cooperar",
+    "salvar"
+    ],
+    "emoji": "📢",
+    "sort": 1640,
+    "slug": "verbos_ayuda"
+    },
+    {
+    "name": "verbos que implican la idea de hacer, organizar o esforzarse",
+    "words": [
+    "actuar",
+    "celebrar",
+    "construir",
+    "cumplir",
+    "desarrollar",
+    "ejecutar",
+    "esforzarse",
+    "fabricar",
+    "hacer",
+    "intentar",
+    "llevar a cabo",
+    "mejorar",
+    "organizar",
+    "planear",
+    "preparar",
+    "prepararse",
+    "realizar"
+    ],
+    "emoji": "📑",
+    "sort": 1620,
+    "slug": "verbos_hacer_organizar"
+    },
+    {
+    "name": "verbos que implican la idea de poner o guardar",
+    "words": [
+    "almacenar",
+    "añadir",
+    "cargar",
+    "colocar",
+    "cubrir",
+    "dejar",
+    "esconder",
+    "fijar",
+    "guardar",
+    "llenar",
+    "marcar",
+    "ocultar",
+    "poner",
+    "vaciar"
+    ],
+    "emoji": "🗄️",
+    "sort": 1500,
+    "slug": "verbos_poner_guardar"
+    },
+    {
+    "name": "verbos que implican la idea de solucionar algo",
+    "words": [
+    "arreglar",
+    "reparar",
+    "resolver",
+    "solucionar"
+    ],
+    "emoji": "🗝",
+    "sort": 1920,
+    "slug": "verbos_solucionar"
+    },
+    {
+    "name": "verbos que implican la idea de tirar o lanzar algo",
+    "words": [
+    "derramar",
+    "echar",
+    "expulsar",
+    "lanzar",
+    "tirar",
+    "verter"
+    ],
+    "emoji": "🤾",
+    "sort": 1510,
+    "slug": "verbos_tirar_lanzar"
+    },
+    {
+    "name": "verbos que implican un golpe o violencia",
+    "words": [
+    "aplastar",
+    "asaltar",
+    "atacar",
+    "bombardear",
+    "chocar",
+    "dar",
+    "dañar",
+    "disparar",
+    "estallar",
+    "explotar",
+    "golpear",
+    "herir",
+    "pegar"
+    ],
+    "emoji": "🔫",
+    "sort": 1860,
+    "slug": "verbos_golpe_violencia"
+    },
+    {
+    "name": "verbos que indican algún tipo de acción",
+    "words": [
+    "abrir",
+    "apuntar",
+    "atar",
+    "bombear",
+    "cavar",
+    "cazar",
+    "cerrar",
+    "cortar",
+    "encerrar",
+    "enterrar",
+    "envolver",
+    "medir",
+    "mojar",
+    "pesar",
+    "quemar"
+    ],
+    "emoji": "🧗‍♂️",
+    "sort": 1540,
+    "slug": "verbos_accion"
+    },
+    {
+    "name": "verbos que indican que un objeto experimenta algo",
+    "words": [
+    "arder",
+    "brillar",
+    "flotar"
+    ],
+    "emoji": "🧪",
+    "sort": 1760,
+    "slug": "verbos_experimentacion"
+    },
+    {
+    "name": "verbos que indican sentimientos y emociones",
+    "words": [
+    "alegrarse",
+    "amar",
+    "arrepentirse",
+    "asustar",
+    "disfrutar",
+    "echar de menos",
+    "enfadarse",
+    "experimentar",
+    "lamentar",
+    "llorar",
+    "odiar",
+    "pasar",
+    "pasarlo bien",
+    "preocupar",
+    "preocuparse",
+    "reír",
+    "reírse",
+    "sentir",
+    "sentirse",
+    "sonreír",
+    "sufrir",
+    "temer"
+    ],
+    "emoji": "🤨",
+    "sort": 1630,
+    "slug": "verbos_sentimientos_emociones"
+    },
+    {
+    "name": "verbos que indican unión o separación",
+    "words": [
+    "combinar",
+    "dividirse",
+    "juntar",
+    "mezclar",
+    "reunir",
+    "reunirse",
+    "separar",
+    "unir",
+    "unirse"
+    ],
+    "emoji": "🚻",
+    "sort": 1800,
+    "slug": "verbos_union_separacion"
+    },
+    {
+    "name": "verbos que relacionan dos o más conceptos",
+    "words": [
+    "afectar",
+    "basarse",
+    "comparar",
+    "conectar",
+    "constar",
+    "depender",
+    "formar",
+    "implicar",
+    "influir",
+    "ocuparse",
+    "participar",
+    "relacionar",
+    "representar"
+    ],
+    "emoji": "👭",
+    "sort": 1950,
+    "slug": "verbos_relacion"
+    },
+    {
+    "name": "verbos que tienen que ver con aparatos",
+    "words": [
+    "apagar",
+    "desactivar",
+    "encender",
+    "estropearse",
+    "filmar",
+    "funcionar",
+    "grabar"
+    ],
+    "emoji": "📱",
+    "sort": 1710,
+    "slug": "verbos_aparatos"
+    },
+    {
+    "name": "verbos referidos a la comida",
+    "words": [
+    "almorzar",
+    "beber",
+    "cenar",
+    "comer",
+    "desayunar",
+    "probar",
+    "tomar",
+    "tragar"
+    ],
+    "emoji": "🍟",
+    "sort": 1660,
+    "slug": "verbos_comida"
+    },
+    {
+    "name": "verbos relacionados con desastres y delitos",
+    "words": [
+    "ahogarse",
+    "ahorcar",
+    "apuñalar",
+    "asesinar",
+    "desmayarse",
+    "estrellarse",
+    "hundirse",
+    "inundar",
+    "matar",
+    "torturar"
+    ],
+    "emoji": "⛓",
+    "sort": 1880,
+    "slug": "verbos_desastres_delitos"
+    },
+    {
+    "name": "verbos relacionados con el lenguaje",
+    "words": [
+    "afirmar",
+    "anunciar",
+    "callarse",
+    "comentar",
+    "comunicar",
+    "contar",
+    "contestar",
+    "debatir",
+    "decir",
+    "declarar",
+    "discutir",
+    "expresar",
+    "hablar",
+    "indicar",
+    "llamar",
+    "negar",
+    "referirse",
+    "repetir",
+    "señalar"
+    ],
+    "emoji": "🗣",
+    "sort": 1390,
+    "slug": "verbos_lenguaje"
+    },
+    {
+    "name": "verbos relacionados con el lenguaje con algún matiz modal",
+    "words": [
+    "acertar",
+    "aconsejar",
+    "adivinar",
+    "admitir",
+    "agradecer",
+    "asegurar",
+    "confirmar",
+    "decidir",
+    "garantizar",
+    "informar",
+    "ir al grano",
+    "pedir perdón",
+    "preguntar",
+    "querer decir",
+    "responder",
+    "tratarse"
+    ],
+    "emoji": "🔜",
+    "sort": 1400,
+    "slug": "verbos_lenguaje_mod"
+    },
+    {
+    "name": "verbos relacionados con el lenguaje con cierto matiz de violencia, obligación o propuesta",
+    "words": [
+    "advertir",
+    "amenazar",
+    "gritar",
+    "insultar",
+    "jurar",
+    "prometer",
+    "proponer",
+    "reclamar",
+    "reivindicar",
+    "sugerir"
+    ],
+    "emoji": "✊",
+    "sort": 1410,
+    "slug": "verbos_lenguaje_vio"
+    },
+    {
+    "name": "verbos relacionados con el tiempo",
+    "words": [
+    "aplazar",
+    "continuar",
+    "dedicar",
+    "durar",
+    "empezar",
+    "mantener",
+    "mantenerse",
+    "pasar",
+    "permanecer",
+    "prolongarse",
+    "retrasar",
+    "retrasarse",
+    "seguir",
+    "tardar",
+    "terminar"
+    ],
+    "emoji": "📽",
+    "sort": 1730,
+    "slug": "verbos_tiempo"
+    },
+    {
+    "name": "verbos relacionados con el trabajo y la utilidad",
+    "words": [
+    "contratar",
+    "despedir",
+    "trabajar"
+    ],
+    "emoji": "🧰",
+    "sort": 1580,
+    "slug": "verbos_trabajo_utilidad"
+    },
+    {
+    "name": "verbos relacionados con la cocina",
+    "words": [
+    "asar",
+    "calentar",
+    "cocinar",
+    "congelar",
+    "derretir",
+    "derretirse",
+    "evaporarse",
+    "hervir",
+    "moler"
+    ],
+    "emoji": "👨‍🍳",
+    "sort": 1670,
+    "slug": "verbos_cocina"
+    },
+    {
+    "name": "verbos relacionados con la idea de borrar",
+    "words": [
+    "borrar",
+    "cancelar",
+    "carecer",
+    "descartar",
+    "desperdiciar",
+    "eliminar",
+    "suprimir",
+    "suspender"
+    ],
+    "emoji": "❎",
+    "sort": 1830,
+    "slug": "verbos_borrar"
+    },
+    {
+    "name": "verbos relacionados con la idea de coger o contener",
+    "words": [
+    "agarrar",
+    "aguantar",
+    "atrapar",
+    "capturar",
+    "coger",
+    "contener",
+    "incluir",
+    "quedarse",
+    "recoger",
+    "recuperar",
+    "sostener",
+    "sujetar"
+    ],
+    "emoji": "🖐️",
+    "sort": 1480,
+    "slug": "verbos_coger_contener"
+    },
+    {
+    "name": "verbos relacionados con la idea de saber",
+    "words": [
+    "conocer",
+    "preguntarse",
+    "saber"
+    ],
+    "emoji": "🧠",
+    "sort": 1430,
+    "slug": "verbos_saber"
+    },
+    {
+    "name": "verbos relacionados con la política o los medios de comunicación",
+    "words": [
+    "acallar",
+    "acordar",
+    "afiliarse",
+    "boicotear",
+    "contaminar",
+    "criticar",
+    "dar a conocer",
+    "derrocar",
+    "desarmar",
+    "desmentir",
+    "desterrar",
+    "destituir",
+    "dimitir",
+    "equilibrar",
+    "espiar",
+    "gobernar",
+    "honrar",
+    "intervenir",
+    "investigar",
+    "manifestarse",
+    "nombrar",
+    "oprimir",
+    "poner en marcha",
+    "publicar",
+    "reformar",
+    "refugiarse",
+    "reprimir",
+    "sabotear",
+    "traicionar",
+    "tramar",
+    "vetar",
+    "votar"
+    ],
+    "emoji": "🧔",
+    "sort": 1970,
+    "slug": "verbos_politica_medios"
+    },
+    {
+    "name": "verbos relacionados con la salud",
+    "words": [
+    "curar",
+    "curarse",
+    "dar",
+    "doler",
+    "infectar",
+    "operar",
+    "picar",
+    "recuperarse",
+    "sangrar",
+    "temblar",
+    "vacunarse",
+    "vomitar"
+    ],
+    "emoji": "💉",
+    "sort": 1685,
+    "slug": "verbos_salud"
+    },
+    {
+    "name": "verbos relacionados con los animales, las plantas y la naturaleza",
+    "words": [
+    "adiestrar",
+    "alimentar",
+    "aparear",
+    "fluir",
+    "manar",
+    "morder",
+    "plantar",
+    "regar"
+    ],
+    "emoji": "🌱",
+    "sort": 1700,
+    "slug": "verbos_animales_plantas"
+    },
+    {
+    "name": "verbos relacionados con los sentidos",
+    "words": [
+    "dar",
+    "darse cuenta",
+    "enseñar",
+    "escuchar",
+    "examinar",
+    "fijarse",
+    "impactar",
+    "mirar",
+    "mostrar",
+    "notar",
+    "observar",
+    "oler",
+    "olvidar",
+    "oír",
+    "recordar",
+    "saber",
+    "tocar",
+    "ver",
+    "vigilar"
+    ],
+    "emoji": "👃",
+    "sort": 1590,
+    "slug": "verbos_sentidos"
+    },
+    {
+    "name": "verbos relacionados con los viajes y el transporte",
+    "words": [
+    "aterrizar",
+    "bajarse",
+    "montar",
+    "perderse",
+    "ubicarse",
+    "viajar",
+    "visitar"
+    ],
+    "emoji": "🚗",
+    "sort": 1360,
+    "slug": "verbos_viajes_transporte"
+    },
+    {
+    "name": "verbos relacionados con transacciones económicas",
+    "words": [
+    "adquirir",
+    "ahorrar",
+    "alquilar",
+    "calcular",
+    "cobrar",
+    "comerciar",
+    "comprar",
+    "costar",
+    "deber",
+    "elegir",
+    "exportar",
+    "ganar",
+    "gastar",
+    "importar",
+    "invertir",
+    "malgastar",
+    "negociar",
+    "pagar",
+    "recaudar",
+    "supervisar",
+    "valer",
+    "vender",
+    "venderse"
+    ],
+    "emoji": "🤝",
+    "sort": 1530,
+    "slug": "verbos_transacciones_economicas"
+    },
+    {
+    "name": "verbos usados en el lenguaje judicial",
+    "words": [
+    "acusar",
+    "apelar",
+    "arrestar",
+    "condenar",
+    "culpar",
+    "denunciar",
+    "enmendar",
+    "indultar",
+    "juzgar",
+    "sospechar",
+    "violar"
+    ],
+    "emoji": "👩‍⚖️",
+    "sort": 1980,
+    "slug": "verbos_judicial"
+    },
+    {
+    "name": "viajes y turismo",
+    "words": [
+    "aeropuerto",
+    "agencia de viajes",
+    "alojamiento",
+    "aventura",
+    "bolsa de viaje",
+    "destino",
+    "equipaje",
+    "excursión",
+    "maleta",
+    "pasajero",
+    "pasaporte",
+    "turismo",
+    "turista",
+    "vacaciones",
+    "viaje",
+    "viajero",
+    "vuelo"
+    ],
+    "emoji": "🏖️",
+    "sort": 330,
+    "slug": "viajes_turismo"
+    },
+    {
+    "name": "vocabulario electoral",
+    "words": [
+    "campaña",
+    "candidato",
+    "coalición",
+    "congreso",
+    "convención",
+    "debate",
+    "elecciones",
+    "escaño",
+    "legislatura",
+    "papeleta",
+    "parlamento",
+    "partido",
+    "propaganda",
+    "senado",
+    "unidad"
+    ],
+    "emoji": "🗳",
+    "sort": 780,
+    "slug": "vocabulario_electoral"
+    }
+    ]

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python app.py run -h 0.0.0.0
+    volumes:
+      - ./:/usr/src/app/
+    ports:
+      - 5044:5000
+    env_file:
+      - ./.env
+    networks:
+      - bilingual_flashcards
+networks:
+  bilingual_flashcards:
+            
+# ref: https://github.com/testdrivenio/flask-on-docker/blob/main/docker-compose.yml
+

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Bilingual Flashcards App</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='cards.png') }}"/>
+
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script src="{{ url_for('static', filename='bootstrap-notify.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-light bg-light">
+            <div class="container">
+                <span class="navbar-brand mb-0 h1">Bilingual Flashcards App <font color="grey">(by 
+                    <a class="twitter-blue" href="https://twitter.com/joseprzmoreno" target="_blank">joseprzmoreno</a>)</font></span>
+            </div>
+        </nav>
+
+        <div class="container" id="languages-container">
+            <div class="row">
+                <div class="container">
+
+                    <form>
+                        <br>
+                        <div class="form-group row">
+                            <div class="col-sm-6">
+                                <select class="form-control" id="language1">
+                                    <option value="eng">English</option>
+                                    <option value="spa">Spanish</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <select class="form-control" id="language2">
+                                    <option value="eng">English</option>
+                                    <option value="spa">Spanish</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="accordion-controls">
+            <div class="card">
+
+                <div class="container">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button id="btn-collapse" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Controls (click to show/hide)
+                            </button>
+                            &nbsp;<button class="btn btn-secondary" id="btn-toggle-language">↔</button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion-controls">
+                        <div class="card-body">
+
+                            <form>
+
+                                <div class="form-group row">
+                                    <label for="transMode" class="col-sm-2 col-form-label">Translation mode</label>
+                                    <div class="col-sm-10">
+                                        <input type="radio" name="transMode" id="transModeAuto" value="auto" checked/> Machine-translated (more sentences)
+                                        <br>
+                                        <input type="radio" name="transMode" id="transModeHuman" value="human"/> Human-translated (fewer sentences)
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="audioMode" class="col-sm-2 col-form-label">Audio</label>
+                                    <div class="col-sm-10">
+                                        <input type="radio" name="audioMode" id="audioModeGtrans" value="gtrans" checked/> TTS by Google (more languages/quality, fewer flashcards, more waiting time)
+                                        <br>
+                                        <input type="radio" name="audioMode" id="audioModeChrome" value="chrome"/> TTS by Chrome (less languages/quality, more flashcards, less waiting time)
+                                        <br>
+                                        <input type="radio" name="audioMode" id="audioModeNo" value="no"/> No TTS
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="form-group row">
+                                    <label for="flahscardsNum" class="col-sm-2 col-form-label">Number of flashcards</label>
+                                    <div class="col-sm-10">
+                                        <input type="number" min="1" max="50" class="form-control" id="flashcardsNum" value="3"/>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="form-group row" id="chrome_tts_box">
+                                    <div class="col-sm-2">Chrome TTS settings</div>
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            TTS reading speed rate  (left flashcard): <input class="form-control" type="number" id="ttsSpeedSrc" name="ttsSpeedSrc" min="0.30" max="4.0" step="0.1" value="1" style="width:200px"/>
+                                            TTS reading speed rate (right flashcard): <input class="form-control" type="number" id="ttsSpeedTgt" name="ttsSpeedTgt" min="0.30" max="4.0" step="0.1" value="1" style="width:200px"/>
+                                            <div style="font-size:12px;color:grey">Supported TTS languages: English, German, Dutch, Spanish, Portuguese, French, Italian, Polish, Russian, Hindi, Chinese, Japanese, Korean, Indonesian.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-2">Transitions settings (when no TTS)</div>
+                                    <div class="col-sm-10">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="allTransitionsAutomatic" checked>
+                                            <label class="form-check-label" for="allTransitionsAutomatic">
+                                                Check this option to set all transitions automatic, at a reading speed of x milliseconds per character (left flashcard): <input type="number" class="form-control" id="autSpeed1" value="71.42" style="display:inline-block;width:200px"/>
+                                                and x milliseconds per character (right flashcard): <input type="number" class="form-control" id="autSpeed2" value="85.70" style="display:inline-block;width:200px"/>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <fieldset class="form-group transition-radio-group">
+                                    <div class="row">
+                                        <legend class="col-form-label col-sm-2 pt-0">Transition between Fl1 and Fl2</legend>
+                                        <div class="col-sm-10">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="trans12" id="trans12Seconds" value="seconds" checked>
+                                                <label class="form-check-label" for="trans12Seconds">
+                                                    Automatically every <input type="number" class="form-control" id="trans12Speed" value="2"/> seconds.
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="trans12" id="trans12Button" value="button">
+                                                <label class="form-check-label" for="trans12Button">
+                                                    Manually when pressing button or F key.
+                                                </label>
+                                            </div>
+                                            <div class="form-check disabled">
+                                                <input class="form-check-input" type="radio" name="trans12" id="trans12Instantly" value="instantly">
+                                                <label class="form-check-label" for="trans12Instantly">
+                                                    Instantly
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset class="form-group transition-radio-group">
+                                    <div class="row">
+                                        <legend class="col-form-label col-sm-2 pt-0">Transition between flashcard pairs</legend>
+                                        <div class="col-sm-10">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="transp" id="transpSeconds" value="seconds" checked>
+                                                <label class="form-check-label" for="transpSeconds">
+                                                    Automatically every <input type="number" class="form-control" id="transpSpeed" value="4"/> seconds.
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="transp" id="transpButton" value="button">
+                                                <label class="form-check-label" for="transpButton">
+                                                    Manually when pressing button or F key.
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+
+                                <hr>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-2">Special conditions</div>
+                                    <div class="col-sm-10">
+                                        <div style="font-size:11px">&nbsp;&nbsp;&nbsp;&nbsp;Include only flashcards with any of the following words or <a style="font-size:14px" href="https://en.wiki.tatoeba.org/articles/show/text-search" target="_blank">complex expressions</a>. 
+                                            Start with * for literal sentences (separated by br).</div>
+                                        <textarea class="form-control" id="includeWords"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row" id="dominions_en_cont">
+                                    <div class="col-sm-6">Semantic fields (English) <i></i>(overrides previous textarea)<i></i></div>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" id="dominions_en">
+                                            <option value="-1">--</option>
+                                        </select>
+                                        <input type="hidden" id="all_dominions_en" val=""/>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row" id="dominions_es_cont">
+                                    <div class="col-sm-6">Semantic fields (Spanish) <i></i>(overrides previous textarea)<i></i></div>
+                                    <div class="col-sm-6">
+                                        <select class="form-control" id="dominions_es">
+                                            <option value="-1">--</option>
+                                        </select>
+                                        <input type="hidden" id="all_dominions_es" val=""/>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row" id="dominion_mode_cont">
+                                    <div class="col-sm-6"></div>
+                                    <div class="col-sm-2">
+                                        <input type="radio" name="r_dominion_mode" id="dominion_mode_none" value="none" checked> None
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input type="radio" name="r_dominion_mode" id="dominion_mode_random_dominion" value="rnd_dom"> Random words from a dominion
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <input type="radio" name="r_dominion_mode" id="dominion_mode_random_word" value="rnd_w"> Random words from all dominions 
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form>
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <br>
+                                    <button type="button" class="btn btn-success" id="btn_start">Start</button>
+                                    <button type="button" class="btn btn-danger" id="btn_stop">Stop</button>&nbsp;&nbsp;&nbsp;
+                                    <button type="button" class="btn btn-primary" id="btn_repeat">Repeat</button>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="cb_repeat" id="cb_repeat"></input>
+                                    <label for="cb_repeat">Repeat each sentence</label>
+                                    <input type="hidden" id="previousSentences" value="[]"/>
+                                    <br>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div id="loading">
+            <img src="{{ url_for('static', filename='gears.gif') }}"></img>
+            <p><br>Please wait while loading the flashcards...<br>(can take a few seconds)</p>
+        </div>
+
+        <div class="container" id="flashcards-container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12 flashcard-container" id="left-container">
+                    <div class="flashcard" id="left-flashcard">&gt;</div>
+                    <br>
+                    <div class="transition-box" id="transition-box-1"><button id="btn_next" class="btn">Next (or press 'F')</button></div>
+                    <br>
+                </div>
+                <div class="col-sm-6 col-xs-12 flashcard-container" id="right-container">
+                    <div class="flashcard" id="right-flashcard">&lt;</div>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <input type="hidden" id="allLanguages"/>
+        <br><br><br>
+        <hr>
+        <div id="footer">
+          This is a project which uses sentences from the fantastic 
+          <a href="https://tatoeba.org" target="_blank">Tatoeba</a> website.
+          The sentences use a <a href="https://tatoeba.org/es/terms_of_use" target="_blank">CC license</a> inhreited by this site.<br> 
+          Please if you re-use or review this project mention this site as well as Tatoeba and the license.
+          <br>The localstorage of your browser is used for saving your preferences. 
+          <br><br>
+        </div>
+
+    </div>
+    </body>
+</html>

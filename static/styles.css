@@ -1,0 +1,105 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.card-header {
+  background-color: white;
+}
+
+#accordion-controls * {
+  font-size: 14px !important;
+}
+
+#btn_next {
+background-color: lightgrey;
+border-radius:4px;
+text-align:center;
+padding:8px;
+min-width:80px;
+}
+
+.flashcard {
+  width: 92%;
+  background-color: lemonchiffon;
+  border-radius: 5px;
+  padding:20px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid grey;
+  box-shadow: 4px 4px 4px grey;
+  font-size: 30px;
+  min-height:350px;
+  max-height:350px;
+  vertical-align:top;
+}
+
+#footer {
+  text-align: right;
+  color: grey;
+  font-size: 10px;
+  padding-right: 20px;
+  padding-left: 500px;
+}
+
+#footer a {
+  font-size: 10px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  #left-flashcard {
+    text-align: right;
+  }
+}
+
+.h1 {
+font-size: 30px;
+}
+
+#loading {
+display: none;
+text-align: center;
+}
+
+.navbar {
+  border-top: 20px !important;
+  background-color: oldlace !important;
+}
+
+.scroll-modal-body {
+  max-height: 300px; /* Set maximum height for the modal body */
+  overflow-y: auto; /* Enable vertical scrollbar */
+}
+
+.sentence {
+   font-size: 30px;
+}
+
+textarea {
+  font-family: 'Courier New';
+}
+
+.transition-box {
+    text-align: center;
+}
+
+.transliteration {
+   font-size: 24px;
+   color: grey;
+}
+
+.twitter-blue {
+  color: lightskyblue;
+}
+
+#vip-message-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  border: 1px dotted #E35335;
+  color: #C04000;
+  height: 40px;
+  border-radius: 2px;
+  width: 60%;
+}
